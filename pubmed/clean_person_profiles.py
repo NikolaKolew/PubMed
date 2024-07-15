@@ -28,7 +28,8 @@ def save_to_csv(df, filename):
 
     df_profiles = df_profiles[(df_profiles['firstName'] != 'Unknown') &
                               (df_profiles['lastName'] != 'Unknown') &
-                              (df_profiles['affiliation'] != 'Unknown')]
+                              (df_profiles['affiliation'] != 'Unknown')&
+                              (df_profiles['formattedName'] != 'Unknown')]
     df_profiles.to_csv(filename, index=False, encoding='utf-8')
 
 
