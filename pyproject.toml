@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pubmed"
+version = "0.1.0"
+description = ""
+authors = ["Nikola Kolev <kolev518@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^8.2.2"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+xmltodict = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
