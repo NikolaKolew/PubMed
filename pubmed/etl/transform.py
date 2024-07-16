@@ -3,13 +3,10 @@ import pandas as pd
 
 def extract_author_info(articles):
     """
-    Extracts author information from articles.
-
     Parameters:
-    - articles (dict): A dictionary containing articles' data.
-
+    - articles (dict): A dictionary containing articles data.
     Returns:
-    - list: A list of dictionaries, each containing author information.
+    - list: A list of dictionaries with author information.
     """
     author_list = []
 

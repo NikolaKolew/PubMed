@@ -4,12 +4,9 @@ import xmltodict
 
 def fetch_pubmed_articles(query, retmax=100):
     """
-    Fetches articles from PubMed related to a specific query.
-
     Parameters:
     - query (str): The search term to use in PubMed.
     - retmax (int): The maximum number of articles to retrieve.
-
     Returns:
     - dict: A dictionary containing the articles' data.
     """
